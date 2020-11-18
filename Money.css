@@ -1,0 +1,140 @@
+/* Selector */
+body {
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+  background-image: url(https://www.abbottsconstruction.com/wp-content/uploads/2015/10/Grey-website-background.png)
+
+}
+
+h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+h2 {
+  font-style: oblique;
+  color: white;
+}
+
+h4 {
+  font-size: 34px;
+  color: white;
+}
+
+h5 {
+  font-size: 50px;
+  font-style: italic;
+  font-family: cursive;
+  color: skyblue;
+  animation: mymooove 5s infinite linear;
+}
+
+h6 {
+  font-size: 30px;
+  font-family: cursive;
+  color: none;
+  animation: mymooove 10s infinite linear;
+  margin: 20px;
+}
+
+img {
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+
+/* Class */
+.Main {
+  color:cyan
+  /* margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
+  position: relative;
+  background-color: white; */
+}
+
+.zoom:hover {
+  transform: scale(1.01);
+}
+
+.button {
+  color: white;
+  background-color: red;
+  font-family: cursive;
+  animation: mymoove 0.5s infinite;
+}
+
+
+
+.btn2 {
+  color: white;
+  background-color: lime;
+  font-family: cursive;
+  animation: mymove 0.5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+@keyframes mymoove {
+  from {background-color: skyblue;}
+  to {background-color: lime;}
+}
+
+@keyframes mymooove {
+  0% {
+        color: #333;
+    }
+    20% {
+        color:#06C;
+    }
+    40% {
+        color:#090;
+    }
+    60% {
+        color:#FC0;
+    }
+    80% {
+        color:#F00;
+    }
+    100% {
+        color:#606;
+    }
+}
+
+.Zero {
+  color: white;
+  font-family: cursive;
+  padding: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #4c4c4c;
+  padding: 20px;
+  border-style: double;
+}
+
+.topnav a {
+ text-decoration: none;
+ color: white;
+ font-size: 17;
+ font-family: cursive;
+ animation: mymooove 1.5s infinite linear;
+ background-color: black;
+ border-style: solid;
+}
+
+.container2 {
+  background-color: #4c4c4c;
+  margin: 20px;
+  font-size: 25px;
+  font-family: cursive;
+  color: none;
+  animation: mymooove 10s infinite linear;
+  border-style: solid;
+}
